@@ -1,0 +1,8 @@
+{
+  "name": "Winds of Jade",
+  "description": "An open-world 3D Wuxia action RPG built as an offline-ready personal Android app with smooth WebGL graphics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

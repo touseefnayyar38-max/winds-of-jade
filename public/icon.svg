@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="68%">
+      <stop offset="0%" stop-color="#172834"/>
+      <stop offset="65%" stop-color="#0d1620"/>
+      <stop offset="100%" stop-color="#070b10"/>
+    </radialGradient>
+    <linearGradient id="jade" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a8ffea"/>
+      <stop offset="50%" stop-color="#5cd4b2"/>
+      <stop offset="100%" stop-color="#277b67"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8e3a3"/>
+      <stop offset="55%" stop-color="#dfb760"/>
+      <stop offset="100%" stop-color="#9e762c"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="172" fill="none" stroke="url(#gold)" stroke-width="6" opacity="0.82"/>
+  <circle cx="256" cy="256" r="148" fill="none" stroke="url(#jade)" stroke-width="4" stroke-dasharray="18 12" opacity="0.65"/>
+  <path d="M256 102 L274 150 L264 334 L256 350 L248 334 L238 150 Z" fill="url(#jade)"/>
+  <path d="M256 102 L256 350 L248 334 L238 150 Z" fill="#d9fff4" opacity="0.45"/>
+  <path d="M210 330 Q256 312 302 330 L294 344 Q256 332 218 344 Z" fill="url(#gold)"/>
+  <rect x="249" y="340" width="14" height="52" rx="4" fill="#2a1d14" stroke="url(#gold)" stroke-width="2"/>
+  <circle cx="256" cy="400" r="11" fill="url(#gold)"/>
+  <path d="M142 260 Q185 210 232 232" fill="none" stroke="url(#jade)" stroke-width="5" stroke-linecap="round" opacity="0.75"/>
+  <path d="M370 260 Q327 210 280 232" fill="none" stroke="url(#jade)" stroke-width="5" stroke-linecap="round" opacity="0.75"/>
+</svg>

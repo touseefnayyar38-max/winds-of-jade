@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+:root {
+  --jade: #7fe3c4;
+  --gold: #e8c877;
+  --ink: #0a0e14;
+  --crimson: #ff5566;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: var(--ink);
+  color: #eaf2ff;
+  font-family: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  overscroll-behavior: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.font-display {
+  font-family: "Cinzel", Georgia, serif;
+}
+
+.font-mono-tabular {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+canvas {
+  display: block;
+  touch-action: none;
+}
+
+@keyframes spinSlow {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 1.1s linear infinite;
+}
+
+@keyframes sealTurn {
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.animate-seal {
+  animation: sealTurn 48s linear infinite;
+}
+
+.animate-seal-reverse {
+  animation: sealTurn 70s linear infinite reverse;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-spin-slow,
+  .animate-seal,
+  .animate-seal-reverse {
+    animation: none;
+  }
+}
